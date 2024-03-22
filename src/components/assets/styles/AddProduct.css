@@ -1,0 +1,20 @@
+.addProduct {
+  display: flex;
+  padding: 40px 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.addProduct h1 {
+  color: white;
+}
+.addProduct input {
+  padding: 10px 30px;
+}
+.addProduct button {
+  padding: 9px 20px;
+  background: greenyellow;
+  border-radius: 4px;
+  color: red;
+}

@@ -1,0 +1,52 @@
+.ProductCard {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 284px;
+  height: 358px;
+  border-radius: 20px;
+  background: #ababab40;
+}
+.ProductCard img {
+  width: 284px;
+  height: 200px;
+  margin-top: -40px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.ProductCard h1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  text-align: left;
+  color: white;
+  padding: 9px 0;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.count button {
+  padding: 3px 4px;
+}
+.btns button {
+  padding: 9px 10px;
+  color: white;
+  border: 2px solid yellowgreen;
+  background: transparent;
+  border-radius: 4px;
+}
+.btns img {
+  width: 50px;
+  margin-top: 4px;
+}
